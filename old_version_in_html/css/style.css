@@ -1,0 +1,144 @@
+/****@author Chiraag Rokade <chiraagrokade@gmail.com>*/
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Zen Antique Soft', serif;*/
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;   
+}
+body{
+    background-color: #fff;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+.aaaaA{
+    font-family: 'Zen Antique Soft', serif;
+    color: black;
+}
+.aaaaB{
+    border: none;
+    margin: 3rem 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aaaaC{
+    margin: 1rem 0;
+}
+.aaaaC img{
+    margin-left: 0.6rem;
+}
+.aaaaD img{
+    margin: 1rem 0.6rem 0 0;
+}
+.aaaaE{
+    text-align: justify;
+}
+.aaaaF{
+    color: blue;
+}
+.aaaaF:hover{
+    color: red;
+}
+.aaaaG{
+    padding: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.dropdown-menu hr{
+    margin: 0;
+}
+.dropdown-menu{
+    padding: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+.nav-item a{
+    color: black !important;
+}
+.aaaaH{
+    padding: 5rem 5rem 5rem 5rem;
+    background-image: linear-gradient(to bottom right, rgb(88, 173, 230), white);
+}
+.aaaaH a{
+    font-family: 'PT Sans', sans-serif;
+}
+.aaaaH span{
+    color: black;
+}
+.aaaaI{
+    font-family: 'Zen Antique Soft', serif;
+    color:white;
+}
+.aaaaJ{
+    margin-top: 3rem;
+}
+.aaaaK{
+    margin-bottom: 0;
+}
+.aaaaL{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.aaaaM{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.aaaaM li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'PT Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+.aaaaN{
+	background-color: #ffffff;
+}
+.aaaaN img{
+	background-color: #ffffff;
+	padding: 0.5rem;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: auto;
+}
+.aaaaO{
+    margin-top: 3rem;
+}
+.aaaaP{
+    margin-top: 1rem;
+}
+.aaaaQ{
+    margin-top: 0.1rem;
+}
+/* MOBILE VIEW */
+@media (max-width: 768px){
+    .hide-mobile{
+        display: none;
+    }
+    .aaaaL{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .aaaaM{
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .aaaaM li,ul,ol{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'PT Sans', sans-serif;
+    }
+}
